@@ -1,0 +1,34 @@
+<section class="gridArea">
+  <div class="imgArea common">
+    <img src="assets\images\i.jpg" width="150px">
+  </div>
+  <div class="listArea common">
+    <h3>My Student Info:</h3>
+    <ul>
+      <li>Name: {{ contentFetch.studentName}}</li>
+      <li>Campus: {{ contentFetch.studentCampus}}</li>
+      
+    </ul>
+  </div>
+  <div class="inputArea common">
+    <h3>2-way Binding</h3>
+    <p>Campus: {{campus}}</p>
+    <label><input [(ngModel)]="campus"/></label>
+    <button (click)="resetData()" [disabled]= "campus === '' ">Reset Button</button>
+  <!-- <p *ngIf="campus==='Davis' else noCampus">{{campus }} belong to Sheridan</p> -->
+  <!-- this code is case senstive now like putting davis Davis but the following code using pipe will solve this problem -->
+
+  <p *ngIf="
+  (campus | uppercase)==='DAVIS' ||
+   (campus | uppercase)==='TRAFALGAR' 
+   else noCampus"
+   
+   [ngStyle]="{background : getStyle()}">
+   <strong>{{campus }}</strong> belong to Sheridan</p>
+  <!-- only condition is triggered then follwing will show up -->
+  <ng-template #noCampus> 
+  <p [ngStyle]="{background : getStyle()}">{{ campus }} does not belong to Sheridan College</p>
+ </ng-template>
+  
+  </div>
+</section>

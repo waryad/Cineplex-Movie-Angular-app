@@ -1,0 +1,15 @@
+<mat-tab-group mat-stretch-tabs class="example-stratched-tabs mat-elevation-z4">
+<mat-tab label="List of Movies">
+<app-external-json-list 
+[movieData]="fetchExternalMovieData"
+[roomList]="fetchExternalRooms"
+></app-external-json-list>
+</mat-tab>
+
+<mat-tab label="Rooms">
+    <app-external-button-list 
+    [movieData]="fetchExternalMovieData"
+    [roomList]="fetchExternalRooms"
+    ></app-external-button-list>
+</mat-tab>
+</mat-tab-group>

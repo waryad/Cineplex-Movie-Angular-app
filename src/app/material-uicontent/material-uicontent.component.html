@@ -1,0 +1,23 @@
+<mat-tab-group mat-stretch-tabs class="example-stratched-tabs mat-elevation-z4">
+<mat-tab  label="Button">
+<button mat-button color="primary">Primary</button>
+<button mat-raised-button>Basic</button>
+</mat-tab>
+<mat-tab label="Icons"> <link 
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <span class="material-symbols-outlined">
+        error
+        </span></mat-tab>
+<mat-tab label="Content">
+    <mat-action-list>
+        <mat-list-item *ngFor="let val of importedStudentList"
+         (click)="displayInfo(val)"> 
+            <button mat-list-item >
+                {{ val.studentName }}
+            </button>
+
+        </mat-list-item>
+    </mat-action-list>
+</mat-tab>
+</mat-tab-group>

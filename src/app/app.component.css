@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) and (orientation: landscape) {
+
+  }
+  .container {
+    width: 100%; 
+  }
+   
+.sidebar {
+    display: none;
+  }
+
+  
+  .heading {
+    font-size: 5vw; 
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .container {
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+   
+  .item {
+    flex-basis: 100%;
+  }

@@ -1,0 +1,25 @@
+table {
+    border: thin solid black;
+    width: 100%;
+}
+ 
+tr:nth-child(even) {
+    background-color: lightgray;
+    border: thin solid pink;
+}
+ 
+td {
+    border: thin solid black;
+}
+ 
+.title {
+    font-weight: bold;
+    text-align: center;
+    color: navy;
+}
+h4{
+    font-weight: bold;
+    text-align: center;
+    color: navy;
+}
+tr:hover {background-color: coral;}
