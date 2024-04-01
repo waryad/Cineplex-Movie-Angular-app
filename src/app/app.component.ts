@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { StudentInfo } from './myClasses/studentInfo';
-import { LIST_OF_STUDENTS } from 'src/assets/data/studentsList';
+import { LIST_OF_STUDENTS } from '../assets/data/studentsList';
 import { myFooterDetail } from './myClasses/Myfooter';
 import externalJSONDATA from '../assets/data/cp.json';
 import { RoomListInterface, MovieDataInterface } from './myInterfaces/jsonInterface';
@@ -13,15 +13,15 @@ import { RoomListInterface, MovieDataInterface } from './myInterfaces/jsonInterf
 })
 export class AppComponent {
   student1: StudentInfo = {
-    studentName:'Deepinder K Warya',
+    studentName:'Deepinder Kaur Warya',
     studentCampus: 'Davis',
     studentCountry:'Canada',
     studentMovie: 'Cineplex Theaters',
    studentLocation:'Trinity mall Brampton',
-    studentContact:'d@gmail.com',
+    studentContact:'1-800-333-0061',
   }
   myinfofooter: myFooterDetail= {
-    myEmail: 'deepinder@gmail.com',
+    myEmail: 'itprodeep@gmail.com',
     myCollege: 'Sheridan College',
     myCampus : 'Davis Campus'
 

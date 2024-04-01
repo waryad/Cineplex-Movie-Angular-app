@@ -19,7 +19,7 @@ export class FooterComponent  implements OnInit{
   ngAfterViewInit():void{
     
     this.Emailid = this.footerFetch.myEmail
-    this.College = this.footerFetch.myCollege
-    this.Campus = this.footerFetch.myCampus
+    // this.College = this.footerFetch.myCollege
+    // this.Campus = this.footerFetch.myCampus
   }
 }

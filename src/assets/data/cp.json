@@ -1,19 +1,51 @@
-{	
-	"MovieData" : {
-		"movieName":"Cineplex",
-		"shortName":"CP",
-		"schedule": "open",
-		"credential":" not needed"
+{
+	"MovieData": {
+	  "movieName": "Sample Movie Data",
+	  "shortName": "Sample",
+	  "schedule": "Weekly",
+	  "credential": "Some Credential"
 	},
 	"rooms": [
-		{"roomNumber": 1, "movieName": "Guardians of the Galaxy", 	 "genre": "Action", "runningtime" : "2 hours 30 min", "dateofrelease" : "May 1,2023",  "Rating" : "5 Star","AgeRestriction" : "R",	     "showTime":" 6pm-8pm" },
-		{"roomNumber": 1, "movieName": "Godfather",  				 "genre": "Comedy", "runningtime" : "1 hour 40 min", 	"dateofrelease" : "June 2,2023", "Rating" : "3 Star","AgeRestriction" : "PG-13", "showTime":" 2pm-4pm"  },
-		{"roomNumber": 2, "movieName": "Avatar", 					 "genre": "Romance", "runningtime" : "3 hours 10 min", "dateofrelease" : "May 8,2023",	 "Rating" : "4 Star","AgeRestriction" : "G",     "showTime":" 9pm-12pm"  },
-		{"roomNumber": 2, "movieName": "Beauty and Beast",  	     "genre": "Action", "runningtime" : "2hours 40 min",	"dateofrelease" : "Aug 10, 2023", "Rating" : "5 Star","AgeRestriction" : "PG-15","showTime":" 9pm-12pm" },
-		{"roomNumber": 3, "movieName": "Deadpool", 					 "genre": "Action", "runningtime" : "1 hour 35 min" , "dateofrelease" : "June 5, 2023", "Rating" : "3 Star","AgeRestriction" : "PG",	"showTime":" 12pm-2pm" },
-		{"roomNumber": 3, "movieName": "Man of Steel",				 "genre": "Comedy", "runningtime" : "3 hours 15 min", "dateofrelease" : "April 30,2023","Rating" : "5 Star","AgeRestriction" : "G" ,	"showTime":" 2pm-4pm"  },
-		{"roomNumber": 4, "movieName": "The Agent", 			     "genre": "Action", "runningtime" : "2 hourse 30 min","dateofrelease" : "Aug 10, 2023", "Rating" : "5 Star","AgeRestriction" : "PG-15","showTime":" 12pm-2pm" },
-		{"roomNumber": 4, "movieName": "Mario Brothers", 			 "genre": "Funny", "runningtime" : "1 hour 20 min" , "dateofrelease" : "June 5, 2023", "Rating" : "3 Star","AgeRestriction" : "PG",	"showTime":"3pm-5pm" }
-		
-	]	
-}
+	  {
+		"roomNumber": 1,
+		"movieName": "Black Panther",
+		"genre": "Action",
+		"runningtime": "2 hours",
+		"dateofrelease": "2022-01-01",
+		"Rating": "PG-13",
+		"AgeRestriction": "18+",
+		"showTime": "12:00 PM"
+	  },
+	  {
+		"roomNumber": 2,
+		"movieName": "Casper",
+		"genre": "Comedy",
+		"runningtime": "1.5 hours",
+		"dateofrelease": "2022-02-01",
+		"Rating": "PG",
+		"AgeRestriction": "All Ages",
+		"showTime": "3:00 PM"
+	  },
+	  {
+		"roomNumber": 3,
+		"movieName": "Dune: Part Two",
+		"genre": "Drama",
+		"runningtime": "2 hours",
+		"dateofrelease": "2022-03-01",
+		"Rating": "PG-13",
+		"AgeRestriction": "18+",
+		"showTime": "6:00 PM"
+	  },
+	  {
+		"roomNumber": 4,
+		"movieName": "Titanic",
+		"genre": "Thriller",
+		"runningtime": "2.5 hours",
+		"dateofrelease": "2022-04-01",
+		"Rating": "R",
+		"AgeRestriction": "18+",
+		"showTime": "9:00 PM"
+	  }
+	]
+  }
+  

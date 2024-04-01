@@ -1,0 +1,108 @@
+{
+  "personalInfo": {
+    "fullName": "Thinking of You...",
+    "country": "hug.svg",
+    "signature": "rohan",
+    "myemail": "rp@gmail.com"
+  },
+  "collegeInfo": {
+    "collegeName": "Sheridan College",
+    "collegeAddress": "4180 Duke of York Blvd, Mississauga, ON L5B 0G5",
+    "contactNumber": "+1(905)845-9430",
+    "emailAddress": "info@sheridancollege.ca",
+    "website": "https://www.sheridancollege.ca/",
+    "campuses": ["Davis", "Trafalgar Road", "Hazel McCallion"]
+  },
+  "listOfCourses": [
+    {
+      "courseName": "Bachelor of Computing and Network Communication",
+      "faculty": "Applied Science and Technology",
+      "credits": 32,
+      "duration": "4.5 years",
+      "campus": "Trafalgar",
+      "fee": 30000,
+      "degree": "undergrauate",
+      "programCoordinator": "abc"
+    },
+    {
+      "courseName": "Business Accounting",
+      "faculty": "Pilon School of Business",
+      "credits": 20,
+      "duration": "2 years",
+      "campus": "Davis",
+      "fee": 30000,
+      "degree": "undergrauate",
+      "programCoordinator": "xyz"
+    },
+    {
+      "courseName": "Honours Bachelor of Community Safety",
+      "faculty": "Faculty of Applied Health & Community Studies",
+      "credits": 40,
+      "duration": "4 years",
+      "campus": "Davis",
+      "fee": 34000,
+      "degree": "undergrauate",
+      "programCoordinator": "asdf"
+    },
+    {
+      "courseName": "Internet of Things and Machine Intelligence",
+      "faculty": "Applied Science and Technology",
+      "credits": 24,
+      "duration": "1 year",
+      "campus": "Davis",
+      "fee": 24000,
+      "degree": "graduate",
+      "programCoordinator": "dddd"
+    },
+    {
+      "courseName": "Business Analysis and Process Management",
+      "faculty": "Pilon School of Business",
+      "credits": 24,
+      "duration": "1 year",
+      "campus": "Davis",
+      "fee": 25000,
+      "degree": "graduate",
+      "programCoordinator": "yyyy"
+    },
+    {
+      "courseName": "Clinical Kinesiology",
+      "faculty": "Faculty of Applied Health & Community Studies",
+      "credits": 24,
+      "duration": "1 year",
+      "campus": "Davis",
+      "fee": 30000,
+      "degree": "graduate",
+      "programCoordinator": "mmmm"
+    },
+    {
+      "courseName": "Game Development Advanced Programming",
+      "faculty": "Applied Science and Technology",
+      "credits": 26,
+      "duration": "1 year",
+      "campus": "Trafalgar",
+      "fee": 28000,
+      "degree": "professional",
+      "programCoordinator": "jjjj"
+    },
+    {
+      "courseName": "Advertising Account Management",
+      "faculty": "Pilon School of Business",
+      "credits": 15,
+      "duration": "1 year",
+      "campus": "Hazel McCallion",
+      "fee": 25000,
+      "degree": "professional",
+      "programCoordinator": "vvvv"
+    },
+    {
+      "courseName": "Clinical Research",
+      "faculty": "Faculty of Applied Health & Community Studies",
+      "credits": 20,
+      "duration": "1 year",
+      "campus": "Hazel McCallion",
+      "fee": 20000,
+      "degree": "professional",
+      "programCoordinator": "mmmm"
+    }
+  ]
+}

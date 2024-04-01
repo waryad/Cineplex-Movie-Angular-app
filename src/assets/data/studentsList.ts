@@ -1,36 +1,31 @@
-import { StudentInfo } from "src/app/myClasses/studentInfo";
+import { StudentInfo } from "../../app/myClasses/studentInfo";
 
-export const LIST_OF_STUDENTS:StudentInfo[]=[
-{   studentName:'Joe Abbott',
-    studentCampus:'Davis',
-    studentCountry:'Canada',
-    studentMovie: 'The Cineplex',
-    studentLocation:'Trinity mall Brampton',
-     studentContact:'d@gmail.com',
-},
-{    studentName:'John Doe',
-    studentCampus:'Trafalgar',
-    studentCountry:'Canada',
-    studentMovie: 'The Cineplex',
-   studentLocation:'Trinity mall Brampton',
-    studentContact:'d@gmail.com',
-   
-   
-},
-{studentName:'Bill Gates',
-    studentCampus:'Davis',
-    studentCountry:'Canada',
-    studentMovie: 'The Cineplex',
-   studentLocation:'Trinity mall Brampton',
-    studentContact:'d@gmail.com',
-    
-},
-{   studentName:'Elon Musk',
-    studentCampus:'Hazel McCallion Campus',
-    studentCountry:'Canada',
-    studentMovie: 'The Cineplex',
-   studentLocation:'Trinity mall Brampton',
-    studentContact:'d@gmail.com',
-}
-    
+export const LIST_OF_STUDENTS: StudentInfo[] = [
+    {
+      studentName: 'deep warya',
+      studentCampus: 'davis',
+      studentCountry: 'Canada',
+      studentMovie: '89',
+      studentLocation: 'Brampton',
+      studentContact: '123-456-7890'
+    },
+    {
+      studentName: 'deep singh',
+      studentCampus: 'trafalgar',
+      studentCountry: 'Canada',
+      studentMovie: '80',
+      studentLocation: 'Mississauga',
+      studentContact: '987-654-3210'
+    },
+    {
+      studentName: 'vick george',
+      studentCampus: 'trafalgar',
+      studentCountry: 'Canada',
+      studentMovie: '89',
+      studentLocation: 'Oakville',
+      studentContact: '555-123-4567'
+    }
+
+
+
 ]
